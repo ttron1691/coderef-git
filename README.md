@@ -1,4 +1,16 @@
 # Code Reference for Git
+## Installation
+The Git CLI can be installed via
+```Shell
+# Linux
+sudo apt-get install git
+```
+For Windows, the corresponding Git client can be downloaded form the official website. 
+### Version
+The git version can be checked via
+```Shell
+git --version
+```
 ## Setup
 Set username and e-mail address of git user
 ```Shell
@@ -65,5 +77,10 @@ https://github.com/ttron1691/coderef-git.git
 # SSH
 git@github.com/ttron1691/coderef-git.git
 ```
+## Pull
+## Push
+## Branches
+## Stash
+## SSH Authorization
 ## References
 We refer to the Github cheat sheet which can be found under: https://education.github.com/git-cheat-sheet-education.pdf
