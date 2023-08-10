@@ -1,9 +1,20 @@
 # Code Reference for Git
+## Setup
+Set username and e-mail address of git user
+```Shell
+git config --global user.name "[firstname lastname]"
+git config --global user.email "[valid-email]"
+```
+### Color settings
+Set corresponding color scheme for git
+```Shell
+git config --global color.ui auto
+```
 ## Basic Commands
 We can check for the status of the git repository by using
 ```Shell
 git status    # Status regarding the staging area
-git diff      # Status  
+git diff      # Status with respect to unstaged lines
 ```
 ## Staging area
 If we want to stage files to the staging area we add those files via
@@ -36,3 +47,5 @@ https://github.com/ttron1691/coderef-git.git
 # SSH
 git@github.com/ttron1691/coderef-git.git
 ```
+## References
+We refer to the Github cheat sheet which can be found under: (https://education.github.com/git-cheat-sheet-education.pdf)[https://education.github.com/git-cheat-sheet-education.pdf]
