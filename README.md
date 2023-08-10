@@ -48,4 +48,4 @@ https://github.com/ttron1691/coderef-git.git
 git@github.com/ttron1691/coderef-git.git
 ```
 ## References
-We refer to the Github cheat sheet which can be found under: [https://education.github.com/git-cheat-sheet-education.pdf]
+We refer to the Github cheat sheet which can be found under: https://education.github.com/git-cheat-sheet-education.pdf
