@@ -26,6 +26,8 @@ git reset template.html
 In order to show the URL of the remote repository we may use the following command
 ```Shell
 git remote -v
+# origin git@github.com/ttron1691/coderef-git.git (fetch)
+# origin git@github.com/ttron1691/coderef-git.git (push)
 ```
 This typically shows the URL depending on the protocol of use
 ```Shell
