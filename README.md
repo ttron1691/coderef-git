@@ -10,6 +10,24 @@ Set corresponding color scheme for git
 ```Shell
 git config --global color.ui auto
 ```
+## Initialize Git Repository
+We can initialize an exisiting directory as a new git repository in the following way
+```Shell
+git init
+```
+Initialize a bare git repository
+```Shell
+git init --bare [DIRECTORY]
+```
+## Clone an existing Git Repository
+We can clone an exisiting Git repository via HTTPS or SSH in the following way
+```Shell
+git clone [URL]
+
+# Example
+git clone https://github.com/ttron1691/coderef-git.git
+git clone git@github.com/ttron1691/coderef-git.git
+```
 ## Basic Commands
 We can check for the status of the git repository by using
 ```Shell
